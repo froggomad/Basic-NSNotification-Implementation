@@ -32,5 +32,4 @@ extension ViewController: UNUserNotificationCenterDelegate {
         //Even if you don't implement this delegate method, you will not see the notification on the specified controller. So, you have to implement this delegate and make sure the below line executes. i.e. completionHandler.
         completionHandler([.alert, .badge, .sound])
     }
-    
 }
